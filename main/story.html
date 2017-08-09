@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>故事</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../css/mui.css" rel="stylesheet" />
+		<style>
+			html {
+				height: 100%;
+			}
+			
+			body {
+				height: 100%;
+				width: 100%;
+			}
+			
+			.mui-text-center>img {
+				margin-bottom: 100px;
+			}
+			
+			.mui-control-item {
+				font-size: 12px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="mui-content" style="height:100%;">
+			<div id="slider" class="mui-slider" style="height:100%;">
+				<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item mui-active" href="#untreated">
+						精选故事
+					</a>
+					<a class="mui-control-item" href="#processing">
+						景点
+					</a>
+					<a class="mui-control-item" href="#meishi">
+						美食
+					</a>
+					<a class="mui-control-item" href="#wenhua">
+						文化
+					</a>
+					<a class="mui-control-item" href="#chengshi">
+						城市
+					</a>
+					<a class="mui-control-item" href="#huodong">
+						活动
+					</a>
+				</div>
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-2"></div>
+				<div class="mui-slider-group" style="height:100%">
+					<div id="untreated" class="mui-slider-item mui-control-content">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-col-xs-12 mui-text-center">
+									<img class="openUrl" data-url="storyDetail.html" src="../images/storyPage.jpg" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="processing" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-col-xs-12 mui-text-center">
+									<img class="openUrl" data-url="story/story_jingdian.html" src="../images/stroyJingdian.jpg" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="meishi" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-col-xs-12 mui-text-center">
+									<img class="openUrl" data-url="story/story_meishi.html" src="../images/stroyMeishi.jpg" height="100%" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="wenhua" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-col-xs-12 mui-text-center">
+									<img class="openUrl" data-url="story/story_wenhua.html" src="../images/stroyWenhua.jpg" height="100%" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="chengshi" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-col-xs-12 mui-text-center">
+									<img class="openUrl" data-url="story/story_chengshi.html" src="../images/stroyChengshi.jpg" height="100%" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="huodong" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-col-xs-12 mui-text-center">
+									<img class="openUrl" data-url="story/story_huodong.html" src="../images/stroyHuodong.jpg" height="100%" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<script src="../js/mui.js"></script>
+			<script>
+				mui.init({
+					swipeBack: true //启用右滑关闭功能
+				});
+				mui('.mui-scroll-wrapper').on('tap', '.openUrl', function() {
+					var homeUrl = this.getAttribute("data-url");
+					mui.openWindow({
+						url: homeUrl,
+						id: homeUrl,
+						waiting: {
+							autoShow: false
+						},
+						createNew: true,
+					});
+				});
+				(function($) {
+					//阻尼系数
+					var deceleration = mui.os.ios ? 0.003 : 0.0009;
+					$('.mui-scroll-wrapper').scroll({
+						bounce: false,
+						indicators: true, //是否显示滚动条
+						deceleration: deceleration
+					});
+
+					//				$('.mui-scroll-wrapper').scroll({
+					//					indicators: true //是否显示滚动条
+					//				});
+				})(mui);
+			</script>
+	</body>
+
+</html>
