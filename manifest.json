@@ -305,7 +305,8 @@
 					"main/attention.html",
 					"main/email.html",
 					"main/story.html",
-					"main/user.html"
+					"main/user.html",
+					"main/chat/chat.html"
 				],
 				"priority": 0
 			},
@@ -544,7 +545,8 @@
 					"images/back@2x.png"
 				],
 				"refer": [
-					"main/shoucang/shoucang_chooseDate.html"
+					"main/shoucang/shoucang_chooseDate.html",
+					"main/chooseDate.html"
 				],
 				"priority": 0
 			},
@@ -644,7 +646,12 @@
 					"images/m9.jpg",
 					"js/mui.js",
 					"images/S70802-151001_04.jpg",
-					"css/mui.css"
+					"css/mui.css",
+					"images/QQ图片20170810112433_02.jpg",
+					"images/758795818_02.jpg",
+					"images/123_03.jpg",
+					"images/QQ20170810112433_02.jpg",
+					"images/back@2x.png"
 				],
 				"refer": [
 					"main/index/index_tiyan/index_tiyanTwo.html"
@@ -655,7 +662,12 @@
 				"resources": [
 					"js/mui.js",
 					"css/mui.css",
-					"images/user.jpg"
+					"images/user.jpg",
+					"images/baoxian.jpg",
+					"images/user_02.jpg",
+					"images/jieji.jpg",
+					"images/user_02b.jpg",
+					"images/back@2x.png"
 				],
 				"refer": [
 					"main/index/index_tiyan/index_tiyanThree.html"
@@ -710,6 +722,22 @@
 				"refer": [
 					"main/index/index_tiyan/index_tiyanFour.html"
 				],
+				"priority": 0
+			},
+			"main/chat/chat.html": {
+				"resources": [
+					"images/back@2x.png",
+					"js/jquery-1.11.3.min.js",
+					"images/paizhao.png",
+					"images/yuyin.png",
+					"images/liaotian.png",
+					"images/xiangce.png",
+					"images/biaoqing.png",
+					"images/jiahao.png",
+					"images/liaotian2.png",
+					"images/liaotian03.png"
+				],
+				"refer": [],
 				"priority": 0
 			}
 		},

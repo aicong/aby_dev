@@ -36,9 +36,9 @@
 				<span class="mui-icon mui-icon-paperplane"></span>
 				<span class="mui-tab-label">故事</span>
 			</a>
-			<a class="mui-tab-item" data-href="main/email.html">
-				<span class="mui-icon mui-icon-email"></span>
-				<span class="mui-tab-label">收件箱</span>
+			<a class="mui-tab-item" data-href="main/chat/chat.html">
+				<span class="mui-icon mui-icon-extra mui-icon-extra-custom"></span>
+				<span class="mui-tab-label">服务</span>
 			</a>
 			<a class="mui-tab-item" data-href="main/user.html">
 				<span class="mui-icon mui-icon-person"></span>
@@ -63,7 +63,7 @@ mui.plusReady(function() {
 	main = plus.webview.currentWebview();
 	plus.webview.close(main.opener(),"",0,"");
 	// 将子窗口的地址存在数组中，方便进行遍历，创建子窗口；
-	var subpageArr = ['main/index.html','main/attention.html', 'main/story.html', 'main/email.html', 'main/user.html'];
+	var subpageArr = ['main/index.html','main/attention.html', 'main/story.html', 'main/chat/chat.html', 'main/user.html'];
 	/**
 	 * 设置子窗口的样式，顶部默认44px，底部默认50px，并且设置窗口无滚动条；
 	 */

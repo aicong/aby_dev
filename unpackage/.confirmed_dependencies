@@ -65,7 +65,8 @@
       "main/index.html",
       "main/story.html",
       "main/attention.html",
-      "main/user.html"
+      "main/user.html",
+      "main/chat/chat.html"
     ]
   },
   "main/story.html": {
@@ -132,7 +133,66 @@
       "images/dj.jpg",
       "images/sy.jpg",
       "images/xiandai.jpg",
-      "js/mui.js"
+      "js/mui.js",
+      "images/jdlx4.jpg",
+      "images/style6.jpg",
+      "images/hotel2.jpg",
+      "images/hotel6.jpg",
+      "images/gz1.jpg",
+      "images/gz3.jpg",
+      "images/sy2.jpg",
+      "images/jdlx3.jpg",
+      "images/jt1.jpg",
+      "images/traffic2.jpg",
+      "images/gz5.jpg",
+      "images/traffic4.jpg",
+      "images/hotel5.jpg",
+      "images/traffic5.jpg",
+      "images/gz8.jpg",
+      "images/jd2.jpg",
+      "images/ms2.jpg",
+      "images/hotel4.jpg",
+      "images/gz7.jpg",
+      "images/gt2.jpg",
+      "images/traffic3.jpg",
+      "images/style1200.jpg",
+      "images/hotel3.jpg",
+      "images/style3.jpg",
+      "images/gt3.jpg",
+      "images/ms3.jpg",
+      "images/style5.jpg",
+      "images/jdlx8.jpg",
+      "images/style1.jpg",
+      "images/fy2.jpg",
+      "images/dj3.jpg",
+      "images/jdlx2.jpg",
+      "images/hotel1.jpg",
+      "images/style4.jpg",
+      "images/jdlx5.jpg",
+      "images/jdlx1.jpg",
+      "images/ger.jpg",
+      "images/gz4.jpg",
+      "images/hc1.jpg",
+      "images/gw2.jpg",
+      "images/gz2.jpg",
+      "images/traffic6.jpg",
+      "images/jdlx7.jpg",
+      "images/couple1.jpg",
+      "images/jdlx6.jpg",
+      "images/dj2.jpg",
+      "images/gz6.jpg",
+      "images/fj6.jpg",
+      "images/style8.jpg",
+      "images/style2.jpg",
+      "images/traffic1.jpg",
+      "images/style7.jpg",
+      "images/style62.jpg",
+      "images/style1201.jpg",
+      "images/style63.jpg",
+      "images/jd3.jpg",
+      "images/couple.jpg",
+      "images/bbk.jpg",
+      "images/js4.jpg"
     ],
     "refer": [
       "main.html"
@@ -220,7 +280,8 @@
       "images/back@2x.png"
     ],
     "refer": [
-      "main/shoucang/shoucang_chooseDate.html"
+      "main/shoucang/shoucang_chooseDate.html",
+      "main/chooseDate.html"
     ]
   },
   "main/shoucang/shoucang_tiyanThree.html": {
@@ -319,7 +380,12 @@
       "images/m9.jpg",
       "js/mui.js",
       "images/S70802-151001_04.jpg",
-      "css/mui.css"
+      "css/mui.css",
+      "images/QQþG20170810112433_02.jpg",
+      "images/758795818_02.jpg",
+      "images/123_03.jpg",
+      "images/QQ20170810112433_02.jpg",
+      "images/back@2x.png"
     ],
     "refer": [
       "main/index/index_tiyan/index_tiyanTwo.html"
@@ -329,7 +395,12 @@
     "resources": [
       "js/mui.js",
       "css/mui.css",
-      "images/user.jpg"
+      "images/user.jpg",
+      "images/baoxian.jpg",
+      "images/user_02.jpg",
+      "images/jieji.jpg",
+      "images/user_02b.jpg",
+      "images/back@2x.png"
     ],
     "refer": [
       "main/index/index_tiyan/index_tiyanThree.html"
@@ -379,6 +450,20 @@
     ],
     "refer": [
       "main/index/index_tiyan/index_tiyanFour.html"
+    ]
+  },
+  "main/chat/chat.html": {
+    "resources": [
+      "images/back@2x.png",
+      "js/jquery-1.11.3.min.js",
+      "images/paizhao.png",
+      "images/yuyin.png",
+      "images/liaotian.png",
+      "images/xiangce.png",
+      "images/biaoqing.png",
+      "images/jiahao.png",
+      "images/liaotian2.png",
+      "images/liaotian03.png"
     ]
   }
 }
