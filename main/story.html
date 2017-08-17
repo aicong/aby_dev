@@ -9,15 +9,12 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<link href="../css/mui.css" rel="stylesheet" />
 		<style>
-			html {
+			html,body {
 				height: 100%;
 			}
             li{margin: 0px;padding: 0px;list-style-type: none}
             ul{margin: 0px;padding: 0px}
-			body {
-				height: 100%;
-				width: 100%;
-			}
+
 			ul li  
 			.mui-text-center>img {
 				margin-bottom: 100px;
@@ -35,6 +32,9 @@
 	</head>
 
 	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">故事</h1>
+		</header>
 		<div class="mui-content" style="height:100%;">
 			<div id="slider" class="mui-slider" style="height:100%;">
 				<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
@@ -70,10 +70,9 @@
 				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-111"></div>
 				<div class="mui-slider-group" style="height:100%">
 					<div id="tab1" class="mui-slider-item mui-control-content">
-						<div id="scroll1" class="mui-scroll-wrapper">
+						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
-								<div class="mui-col-xs-12 mui-text-center">
-									<!--<img class="openUrl" data-url="storyDetail.html" src="../images/storyPage.jpg" />-->
+								<div class="mui-col-xs-12 mui-text-center">							
 									<div class="content_story">
 										<ul>
 											<li class="openUrl" data-url="storyDetail.html">
