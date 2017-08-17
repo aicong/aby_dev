@@ -31,6 +31,33 @@
 			/*background-color: pink;*/
 			margin: 0px;padding: 0px;
 			}
+			.content_story ul{width: 100%;float: left; margin-top: 2%;}
+           .content_story>ul>li{
+                margin: 0px;padding: 0px;
+                float: left;
+                width:45%;
+                line-height: 1.3rem;
+                font-size: 0.09rem;
+                text-align: left;
+                margin-left: 3%;
+
+            }
+            .story_imgs{ float:left;width: 100%;border-radius: 4%;}
+            .tittle_content{height: 6rem; line-height: 1.3rem;
+                font-size: 0.09rem ; color: #292929;}
+            .chengshi{float: left;
+                font-size: 14px;
+                margin:0px 4%;
+                color: #292929;
+            }
+           .bottom_imgs{float: left;
+                         width: 100%;
+                  padding-left:2%  ;
+                /*background-color: #1b6d85;*/
+            }
+            .bottom_imgs>img{width:1rem!important; margin-left: 2% }
+           .bottom_num{margin: 0;padding: 0;line-height: 2px;position: relative;  top: -0.33rem;}
+			/**********END*************/
 		</style>
 	</head>
 
@@ -38,38 +65,29 @@
 		<div class="mui-content" style="height:100%;">
 			<div id="slider" class="mui-slider" style="height:100%;">
 				<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
-					<a class="mui-control-item mui-active" href="#tab1">
-						推荐
+					<a class="mui-control-item mui-active" href="#beijin">
+						北京
 					</a>
-					<a class="mui-control-item" href="#tab2">
-						精选
+					<a class="mui-control-item" href="#shanghai">
+						上海
 					</a>
-					<a class="mui-control-item" href="#tab3">
-						文化
+					<a class="mui-control-item" href="#guangzhou">
+						广州
 					</a>
-					<a class="mui-control-item" href="#tab4">
-						饮食
+					<a class="mui-control-item" href="#shenzhen">
+						深圳
 					</a>
-					<a class="mui-control-item" href="#tab5">
-						户外
+					<a class="mui-control-item" href="#xinjiapo">
+						新加坡
 					</a>
-					<a class="mui-control-item" href="#tab6">
-						亲子
-					</a>
-					<a class="mui-control-item" href="#tab7">
-						娱乐
-					</a>
-					<a class="mui-control-item" href="#tab8">
-						运动
-					</a>
-					<a class="mui-control-item" href="#tab9">
-						综合
+					<a class="mui-control-item" href="#hanguo">
+						韩国
 					</a>
 
 				</div>
-				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-111"></div>
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-2"></div>
 				<div class="mui-slider-group" style="height:100%">
-					<div id="tab1" class="mui-slider-item mui-control-content">
+					<div id="beijin" class="mui-slider-item mui-control-content">
 						<div id="scroll1" class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
@@ -149,7 +167,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="tab2" class="mui-slider-item mui-control-content">
+					<div id="shanghai" class="mui-slider-item mui-control-content">
 						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
@@ -249,7 +267,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="tab3" class="mui-slider-item mui-control-content">
+					<div id="guangzhou" class="mui-slider-item mui-control-content">
 						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
@@ -305,7 +323,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="tab4" class="mui-slider-item mui-control-content">
+					<div id="shenzhen" class="mui-slider-item mui-control-content">
 						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
@@ -383,7 +401,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="tab5" class="mui-slider-item mui-control-content">
+					<div id="xinjiapo" class="mui-slider-item mui-control-content">
 						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
@@ -461,34 +479,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="tab6" class="mui-slider-item mui-control-content">
-						<div class="mui-scroll-wrapper">
-							<div class="mui-scroll">
-								<div class="mui-col-xs-12 mui-text-center">
-									<img class="openUrl" data-url="story/story_huodong.html" src="../images/stroyHuodong.jpg" height="100%" />
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="tab7" class="mui-slider-item mui-control-content">
-						<div class="mui-scroll-wrapper">
-							<div class="mui-scroll">
-								<div class="mui-col-xs-12 mui-text-center">
-									<img class="openUrl" data-url="story/story_wenhua.html" src="../images/stroyWenhua.jpg" height="100%" />
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="tab8" class="mui-slider-item mui-control-content">
-						<div class="mui-scroll-wrapper">
-							<div class="mui-scroll">
-								<div class="mui-col-xs-12 mui-text-center">
-									<img class="openUrl" data-url="story/story_chengshi.html" src="../images/stroyChengshi.jpg" height="100%" />
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="tab9" class="mui-slider-item mui-control-content">
+					<div id="hanguo" class="mui-slider-item mui-control-content">
 						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
@@ -549,7 +540,10 @@
 
 			<script src="../js/mui.js"></script>
 			<script>
-				mui.init();
+				mui.init({
+					swipeBack: true //启用右滑关闭功能
+				});
+
 				mui('.mui-scroll-wrapper').on('tap', '.openUrl', function() {
 					var homeUrl = this.getAttribute("data-url");
 					mui.openWindow({
@@ -570,6 +564,9 @@
 						deceleration: deceleration
 					});
 
+					//				$('.mui-scroll-wrapper').scroll({
+					//					indicators: true //是否显示滚动条
+					//				});
 				})(mui);
 			</script>
 	</div>
