@@ -9,24 +9,15 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<link href="../css/mui.css" rel="stylesheet" />
 		<style>
-			html,body {
+			html, body{
 				height: 100%;
 			}
-            li{margin: 0px;padding: 0px;list-style-type: none}
-            ul{margin: 0px;padding: 0px}
-
-			ul li  
-			.mui-text-center>img {
-				margin-bottom: 100px;
-			}
-			
 			.mui-control-item {
-				font-size:0.2rem;
+				font-size: 12px;
 			}
-			/***********许永霖***********/
-			.content_story{width: 100%;height: 700px;
-			/*background-color: pink;*/
-			margin: 0px;padding: 0px;
+			.mui-col-xs-111
+			{
+			    width: 11.11111111%;
 			}
 		</style>
 	</head>
@@ -34,6 +25,7 @@
 	<body>
 		<header class="mui-bar mui-bar-nav">
 			<h1 class="mui-title">故事</h1>
+			<a class="mui-icon mui-icon-search mui-pull-right"></a>
 		</header>
 		<div class="mui-content" style="height:100%;">
 			<div id="slider" class="mui-slider" style="height:100%;">
@@ -65,85 +57,14 @@
 					<a class="mui-control-item" href="#tab9">
 						综合
 					</a>
-
 				</div>
 				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-111"></div>
 				<div class="mui-slider-group" style="height:100%">
 					<div id="tab1" class="mui-slider-item mui-control-content">
-						<div class="mui-scroll-wrapper">
+						<div id="scroll1" class="mui-scroll-wrapper">
 							<div class="mui-scroll">
-								<div class="mui-col-xs-12 mui-text-center">							
-									<div class="content_story">
-										<ul>
-											<li class="openUrl" data-url="storyDetail.html">
-												<img class="story_imgs"  src="../images/story_img/beijin_changcheng.jpg" alt="" />
-												<p class="tittle_content"><b class="chengshi">北京</b>八达岭长城</p>
-												<div class="bottom_imgs">
-													<img src="../images/story_img/touxiang1.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-	                                                <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-	                                                <span class="bottom_num">51</span>
-	                                                <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-	                                                <span class="bottom_num">13</span>
-												</div>
-											</li>
-
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/beijin_laxiangguan.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">北京</b>杜莎夫人蜡像馆</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang2.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img data-url="index/index_tiyan/index_tiyanContent.html" class="story_imgs"  src="../images/story_img/beijin_haidishjie.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">北京</b>富国海底世界</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang3.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/beijin_gugong.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">北京</b>故宫</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang4.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/beijin_yanxihu.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">北京</b>雁栖湖</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang5.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/beijin_dianshita.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">北京</b>中央电视塔</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang6.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-										</ul>
-									</div>
+								<div class="mui-col-xs-12 mui-text-center">
+									<img class="openUrl" data-url="storyDetail.html" src="../images/storyPage.jpg" />
 								</div>
 							</div>
 						</div>
@@ -152,98 +73,7 @@
 						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
-                                    <div class="content_story">
-                                        <ul>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/shanghai_disini.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">上海</b>迪斯尼乐园</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang1.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/shanghai_bihaijinsha.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">上海</b>奉贤碧海金沙</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang2.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/shanghai_jinrongzhongxin.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">上海</b>环球金融中心</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang3.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/shanghai_jinmaodasha.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">上海</b>金茂大厦88层</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang4.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/shanghai_jinmaodasha.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">上海</b>金山城市沙滩</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang5.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/shanghai_jinmaodasha.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">上海</b>玛雅海滩水公园</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang6.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                            <img class="story_imgs"  src="../images/story_img/shanghai_yinshileyuan.jpg" alt=""/>
-                                            <p class="tittle_content"><b class="chengshi">上海</b>影视乐园</p>
-                                            <div class="bottom_imgs">
-                                                <img src="../images/story_img/touxiang2.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                <span class="bottom_num">51</span>
-                                                <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                <span class="bottom_num">13</span>
-                                            </div>
-                                           </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/shanghai_changfeng.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">上海</b>长风海洋世界</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang5.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
+									<img class="openUrl" data-url="story/story_jingdian.html" src="../images/stroyJingdian.jpg" />
 								</div>
 							</div>
 						</div>
@@ -252,54 +82,7 @@
 						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
-                                    <div class="content_story">
-                                        <ul>
-                                        <li class="openUrl" data-url="storyDetail.html">
-                                            <img class="story_imgs"  src="../images/story_img/guangzhou_shuishangshijie.jpg" alt=""/>
-                                            <p class="tittle_content"><b class="chengshi">广州</b>长江水世界</p>
-                                            <div class="bottom_imgs">
-                                                <img src="../images/story_img/touxiang1.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                <span class="bottom_num">51</span>
-                                                <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                <span class="bottom_num">13</span>
-                                            </div>
-                                        </li>
-                                        <li class="openUrl" data-url="storyDetail.html">
-                                        <img class="story_imgs"  src="../images/story_img/guangzhou_dajuyuan.jpg" alt=""/>
-                                        <p class="tittle_content"><b class="chengshi">广州</b>国际马戏大剧院</p>
-                                        <div class="bottom_imgs">
-                                            <img src="../images/story_img/touxiang2.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                            <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                            <span class="bottom_num">51</span>
-                                            <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                            <span class="bottom_num">13</span>
-                                        </div>
-                                        </li>
-                                        <li class="openUrl" data-url="storyDetail.html">
-                                            <img class="story_imgs"  src="../images/story_img/guangzhou_kexuezhongxin.jpg" alt=""/>
-                                            <p class="tittle_content"><b class="chengshi">广州</b>科学中心</p>
-                                            <div class="bottom_imgs">
-                                                <img src="../images/story_img/touxiang3.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                <span class="bottom_num">51</span>
-                                                <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                <span class="bottom_num">13</span>
-                                            </div>
-                                        </li>
-                                        <li class="openUrl" data-url="storyDetail.html">
-                                            <img class="story_imgs"  src="../images/story_img/guangzhou_huanleshijie.jpg" alt=""/>
-                                            <p class="tittle_content"><b class="chengshi">广州</b>长隆欢乐世界</p>
-                                            <div class="bottom_imgs">
-                                                <img src="../images/story_img/touxiang4.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                <span class="bottom_num">51</span>
-                                                <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                <span class="bottom_num">13</span>
-                                            </div>
-                                        </li>
-                                        </ul>
-                                    </div>
+									<img class="openUrl" data-url="story/story_meishi.html" src="../images/stroyMeishi.jpg" height="100%" />
 								</div>
 							</div>
 						</div>
@@ -308,76 +91,7 @@
 						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
-                                    <div class="content_story">
-                                         <ul>
-                                             <li class="openUrl" data-url="storyDetail.html">
-                                                 <img class="story_imgs"  src="../images/story_img/shenzhen_huanlegu.jpg" alt=""/>
-                                                 <p class="tittle_content"><b class="chengshi">深圳</b>欢乐谷</p>
-                                                 <div class="bottom_imgs">
-                                                     <img src="../images/story_img/touxiang1.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                     <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                     <span class="bottom_num">51</span>
-                                                     <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                     <span class="bottom_num">13</span>
-                                                 </div>
-                                             </li>
-                                             <li class="openUrl" data-url="storyDetail.html">
-                                                 <img class="story_imgs"  src="../images/story_img/shenzhen_jinxiuzhonghua.jpg" alt=""/>
-                                                 <p class="tittle_content"><b class="chengshi">深圳</b>锦绣中华·民俗村</p>
-                                                 <div class="bottom_imgs">
-                                                     <img src="../images/story_img/touxiang2.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                     <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                     <span class="bottom_num">51</span>
-                                                     <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                     <span class="bottom_num">13</span>
-                                                 </div>
-                                             </li>
-                                             <li class="openUrl" data-url="storyDetail.html">
-                                                 <img class="story_imgs"  src="../images/story_img/shenzhen_qingqingshijie.jpg" alt=""/>
-                                                 <p class="tittle_content"><b class="chengshi">深圳</b>青青世界</p>
-                                                 <div class="bottom_imgs">
-                                                     <img src="../images/story_img/touxiang3.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                     <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                     <span class="bottom_num">51</span>
-                                                     <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                     <span class="bottom_num">13</span>
-                                                 </div>
-                                             </li>
-                                             <li class="openUrl" data-url="storyDetail.html">
-                                                 <img class="story_imgs"  src="../images/story_img/shenzhen_dongbuhuaqiaocheng.jpg" alt=""/>
-                                                 <p class="tittle_content"><b class="chengshi">深圳</b>东部华侨城</p>
-                                                 <div class="bottom_imgs">
-                                                     <img src="../images/story_img/touxiang4.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                     <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                     <span class="bottom_num">51</span>
-                                                     <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                     <span class="bottom_num">13</span>
-                                                 </div>
-                                             </li>
-                                             <li class="openUrl" data-url="storyDetail.html">
-                                                 <img class="story_imgs"  src="../images/story_img/shenzhen_shijiezhichuang.jpg" alt=""/>
-                                                 <p class="tittle_content"><b class="chengshi">深圳</b>世界之窗</p>
-                                                 <div class="bottom_imgs">
-                                                     <img src="../images/story_img/touxiang5.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                     <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                     <span class="bottom_num">51</span>
-                                                     <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                     <span class="bottom_num">13</span>
-                                                 </div>
-                                             </li>
-                                             <li class="openUrl" data-url="storyDetail.html">
-                                                 <img class="story_imgs"  src="../images/story_img/shenzhen_guanlanshanshui.jpg" alt=""/>
-                                                 <p class="tittle_content"><b class="chengshi">深圳</b>观澜山水文化园</p>
-                                                 <div class="bottom_imgs">
-                                                     <img src="../images/story_img/touxiang6.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                     <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                     <span class="bottom_num">51</span>
-                                                     <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                     <span class="bottom_num">13</span>
-                                                 </div>
-                                             </li>
-                                       </ul>
-                                    </div>
+									<img class="openUrl" data-url="story/story_wenhua.html" src="../images/stroyWenhua.jpg" height="100%" />
 								</div>
 							</div>
 						</div>
@@ -386,76 +100,7 @@
 						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
-                                    <div class="content_story">
-                                        <ul>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/xinjiapo_huayuan.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">新加坡</b>滨海湾花园</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang1.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/xinjiapo_shengtaiyuan.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">新加坡</b>河川生态园</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang2.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/xinjiapo_huanqiuyincheng.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">新加坡</b>环球影城</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang3.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/xinjiapo_feiqingongyuan.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">新加坡</b>裕廊飞禽公园</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang4.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/xinjiapo_tanxianleyuan.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">新加坡</b>圣淘沙探险乐园</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang5.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/xinjiapo_haiyanguan.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">新加坡</b>名胜世界海洋馆</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang6.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
+									<img class="openUrl" data-url="story/story_chengshi.html" src="../images/stroyChengshi.jpg" height="100%" />
 								</div>
 							</div>
 						</div>
@@ -491,54 +136,7 @@
 						<div class="mui-scroll-wrapper">
 							<div class="mui-scroll">
 								<div class="mui-col-xs-12 mui-text-center">
-                                    <div class="content_story">
-                                        <ul>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/hanguo_fushan.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">韩国</b>釜山</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang1.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/hanguo_jiangyuandao.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">韩国</b>江原道</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang2.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                                <img class="story_imgs"  src="../images/story_img/hanguo_jizhoudao.jpg" alt=""/>
-                                                <p class="tittle_content"><b class="chengshi">韩国</b>济州岛</p>
-                                                <div class="bottom_imgs">
-                                                    <img src="../images/story_img/touxiang3.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                    <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                    <span class="bottom_num">51</span>
-                                                    <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                    <span class="bottom_num">13</span>
-                                                </div>
-                                            </li>
-                                            <li class="openUrl" data-url="storyDetail.html">
-                                            <img class="story_imgs"  src="../images/story_img/hanguo_shouermingdong.jpg" alt=""/>
-                                            <p class="tittle_content"><b class="chengshi">韩国</b>首尔明洞</p>
-                                            <div class="bottom_imgs">
-                                                <img src="../images/story_img/touxiang4.jpg" alt="" style="width:1.2rem;border-radius: 50%;">
-                                                <img src="../images/story_img/zan.png" alt="" style="position: relative;top:-0.2rem">
-                                                <span class="bottom_num">51</span>
-                                                <img src="../images/story_img/pinglun.png" alt="" style="position: relative;top:-0.08rem">
-                                                <span class="bottom_num">13</span>
-                                            </div>
-                                        </li>
-                                        </ul>
-                                    </div>
+									<img class="openUrl" data-url="story/story_huodong.html" src="../images/stroyHuodong.jpg" height="100%" />
 								</div>
 							</div>
 						</div>
@@ -571,7 +169,6 @@
 
 				})(mui);
 			</script>
-	</div>
-    </body>
+	</body>
 
 </html>
